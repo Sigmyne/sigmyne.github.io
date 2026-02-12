@@ -1,0 +1,8 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://sigmyne.github.io/SuperNOVAS/sitemap.xml
+Sitemap: https://sigmyne.github.io/xchange/sitemap.xml
+Sitemap: https://sigmyne.github.io/redisx/sitemap.xml
+Sitemap: https://sigmyne.github.io/smax-clib/sitemap.xml
+Sitemap: https://sigmyne.github.io/smax-postgres/sitemap.xml
