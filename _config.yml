@@ -1,0 +1,25 @@
+theme: jekyll-theme-Tactile
+author: Attila Kovacs
+github_username: attipaci
+title: Sigmyne, LLC
+description: Astronomy software solutions
+show_downloads: false
+google_analytics: G-HLFWKSM8V9
+url: "https://sigmyne.github.io"
+read_time: true
+titles_from_headings:
+  strip_title: true
+kramdown:
+  input: GFM
+plugins:
+  - jekyll-sitemap
+  - jekyll-titles-from-headings
+  - jekyll-toc
+  
+defaults:
+  # Exclude google site verification from sitemap
+  - scope:
+      path: google*.html
+    values:
+      sitemap: false
+
