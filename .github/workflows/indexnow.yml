@@ -18,6 +18,5 @@ jobs:
         with:
           sitemap-location: 'https://sigmyne.github.io/sitemap.xml'
           key: ${{ secrets.INDEXNOW_KEY }}
-          key-location: 'https://sigmyne.github.io/${{ secrets.INDEXNOW_KEY }}.txt'
           limit: 200
 
